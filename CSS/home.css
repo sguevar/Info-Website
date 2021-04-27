@@ -40,6 +40,17 @@
     text-decoration: none;
 }
 
+/* Drop down Buttons*/
+.dropdown{
+    overflow: hidden;
+    float: right;
+}
+
+.dropdown .dropdownbutton {
+    
+
+}
+
 /* Background */
 .gradient {
     background-color:  #e3dada;
