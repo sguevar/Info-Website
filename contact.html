@@ -10,33 +10,42 @@
     <link rel="stylesheet" href="CSS/home.css">
 </head>
 <body class="gradient">
-    <!--Preloader-->
+  <!--Preloader-->
     <!--Navigation Bar-->
     <div class="navigation">
         <a href="index.html"> Home </a>
-        <a href="hardware.html"> Hardware </a>
-        <a href="software.html"> Software </a>
+        <div class="dropdown">
+            <button class="dropbtn"> Hardware 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="hardware.html">Introduction</a>
+                <a href="motherboard.html">The MotherBoard</a>
+                <a href="cpu.html">The Central Proccessing Unit (CPU)</a>
+                <a href="gpu.html">The Graphics Card (GPU)</a>
+                <a href="ram.html">Random Access Memory (RAM)</a>
+                <a href="storage.html">Storage (SSD vs HD)</a>
+                <a href="psu.html">Power Supply (PSU)</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> Software
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="software.html">Introduction</a>
+                <a href="app.html">Application Software</a>
+                <a href="system.html">System Software</a>
+                <a href="program.html">Programming Software</a>
+            </div>
+        </div>
         <a href="build.html"> Build your Own Computer </a>
-        <a href="forums.html"> Forums </a>
         <a class="active" href="contact.html"> Contact Me  </a>
         <img src="Images/SG2.png" style="float: right;"> 
     </div>
+</body>
     <p class="p1">
         If you want to contact me about anything regarding computers, parts, recommendations, or the website
         itself then you can contact me using my email: guevarasteven1@gmail.com
         </p>
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
